@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-password-generator",
+  "version": "1.0.0",
+  "description": "password generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suryatejaj97/nodejs-password-generator.git"
+  },
+  "author": "Surya Teja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suryatejaj97/nodejs-password-generator/issues"
+  },
+  "homepage": "https://github.com/suryatejaj97/nodejs-password-generator#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "clipboardy": "^2.3.0",
+    "commander": "^8.0.0"
+  }
+}
