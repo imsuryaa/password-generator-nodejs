@@ -1,4 +1,5 @@
 const program = require("commander");
+const createPassword = require("./utils/createPassword");
 
 program.version("1.0.0").description("Password Generator");
 
@@ -9,4 +10,10 @@ program
   .option("-ns, --no-symbols", "remove symbols")
   .parse();
 
-console.log(program.opts());
+const { length, save, numbers, symbols } = program.opts();
+
+// Generate password function
+
+const generatedPassword = createPassword(length, numbers, symbols);
+
+console.log(generatedPassword);
